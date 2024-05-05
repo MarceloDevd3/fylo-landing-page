@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./assets/css/style.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/d2e15d65bb.js" crossorigin="anonymous"></script>
+  <title>Frontend Mentor | Fylo landing page with two column layout</title>
+</head> 
+
+<body>
+  <header>
+    <a href="#"><img src="images/logo.svg" alt="logo"></a>
+    <nav>
+      <ul>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Team</a></li>
+        <li><a href="#"> Sign In</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main id="main-x">
+    <div class="bg">
+      <img src="images/bg-curve-mobile.svg" alt="" class="mobile">
+      <img src="images/bg-curve-desktop.svg" alt="" class="desk">
+    </div>
+    <div class="hero flex">
+
+      <section class="hero-informacion">
+        <h1>All your files in one secure location, accessible anywhere.</h1>
+        <p>Fylo stores your most important files in one secure location.
+          Access them wherever you need, share and collaborate with friends,
+          family, and co-workers.</p>
+        <form class="formulario-0">
+          <label>
+            <input type="text" name="email" id="email-0" placeholder="Enter your email">
+            <span id="email-text-0"></span>
+          </label>
+          <button type="button" class="btn get-acess-0" onclick="SubmitForm0()">Get Started</button>
+        </form>
+      </section>
+
+      <div class="container-img">
+        <img src="images/illustration-1.svg" alt="illustration image">
+      </div>
+    </div>
+    <div class="stay-productive flex">
+      <section class="productive">
+        <h2>Stay productive, wherever you are</h2>
+        <p> Never let location be an issue when accessing your files. Fylo has you
+          covered for all of your file storage needs.
+        </p>
+        <p>Securely share files and folders with friends, family and colleagues for
+          live collaboration. No email attachments required!
+        </p>
+        <div class="link-zone">
+          <a href="#">See how Fylo works <img src="images/icon-arrow.svg" alt="arrow"></a>
+        </div>
+        <article id="single-card">
+          <img src="images/icon-quotes.svg" alt="quotes">
+          <p class="card-text">
+            Fylo has improved our team productivity by an order of magnitude. Since
+            making the switch our team has become a well-oiled collaboration machine.
+          </p>
+          <div class="row">
+            <div class="content-img">
+              <img src="images/avatar-testimonial.jpg" alt="">
+            </div>
+            <p class="profile-name">
+              Kyle Burton <br>
+              <span class="profile-info"> Founder & CEO, Huddle</span>
+            </p>
+          </div>
+        </article>
+      </section>
+      <div class="container-img" id="container0">
+        <img src="images/illustration-2.svg" alt="illustration image">
+      </div>
+    </div>
+  </main>
+  <div class="gray-zone">
+    <section id="get-access">
+      <h3>Get early access today</h3>
+      <p>It only takes a minute to sign up and our free starter tier is extremely generous.
+        If you have any questions, our support team would be happy to help you.</p>
+    </section>
+    <form class="formulario-1">
+      <label>
+        <input type="text" name="email" id="email-1" placeholder="email@gamil.com">
+        <span class="email-text-1"></span>
+      </label>
+      <button type="button" class="btn get-acess-1" onclick="SubmitForm1()">Get Started For Free</button>
+    </form>
+  </div>
+  <footer>
+        <section class="footer-row footer-row-0">
+          <div class="logo">
+            <img src="images/logo.svg" alt="footer-logo">
+          </div>
+          <ul>
+            <li><img src="images/icon-phone.svg" alt=""><a href="#">Phone: +1-543-123-4567</a></li>
+            <li><img src="images/icon-email.svg" alt=""><a href="#">example@fylo.com</a></li>
+          </ul>
+        </section>
+
+        <section class="footer-row footer-row-1">
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Jobs</a></li>
+            <li><a href="#">Press</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </section>
+  
+        <section class="footer-row footer-row-2">
+          <ul>
+            <li><a href="#"> Contact Us</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Privacy</a></li>
+          </ul>
+        </section>
+  
+        <section class="footer-row footer-row-3">
+          <div class="icon"><i class="fa-brands fa-facebook-f"></i></div>
+          <div class="icon"><i class="fa-brands fa-twitter"></i></div>
+          <div class="icon"><i class="fa-brands fa-instagram"></i></div>
+        </section>
+  </footer>
+  <script src="./assets/js/forms.js"></script>
+</body>
+
+</html>

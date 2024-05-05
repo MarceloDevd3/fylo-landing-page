@@ -1,0 +1,129 @@
+@import 'variaveis.scss';
+
+
+
+
+#main-x {
+  
+    .flex {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+         margin-left: 0;
+        .container-img {
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+
+    .hero-informacion {
+        h1 {
+            width: 400px;
+            font-size:1.5em ;
+            transform: scale(1.1);
+            letter-spacing: 1px;
+            text-align: center;
+            padding: 0 1em;
+            line-height: 35px;
+            margin: 1.4em 0;
+        }
+
+         p {
+            margin: 1em auto;
+            width: 330px;
+            text-align: center;
+         }
+     }
+
+     #container0 {
+        position: relative;
+        top: -75px;
+        margin-top: 5em;
+     
+     }
+
+     /*
+     div {
+        margin: 1.4em 0;
+        padding: 2em 2em;
+     }*/
+
+     .stay-productive {
+       margin-top: 20em;
+       background: #f9f8fe;
+      
+
+        
+        h2 {
+            margin: 1.4em 0;
+            text-align: center;
+        }
+
+        p {
+            width: 375px;
+            margin: 1.3em 0;
+        }
+
+        .link-zone {
+            text-align: center;
+            a {
+                padding-bottom: 0.2em;
+                color: $Moderate-Cyan;
+                text-decoration: none;
+            border-bottom: 1px solid $Moderate-Cyan;
+            }
+        }
+
+        #single-card {
+            margin: 1.4em 0;
+            width: 400px;
+            border-radius: 4px;
+            padding: 1.5em;
+            height: 250px;
+            box-shadow: 4px 5px 8px 0px rgba(0,0,0,0.25);
+            background-color: $Light-Grayish-Blue;
+
+            .row {
+                display: flex;
+                margin-top: -25px;
+                align-items: center;
+                .content-img {
+                    img {
+                        width: 40px;
+                        border-radius: 50px;
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+     }
+    }
+
+  
+    .bg {
+        
+        .mobile {
+            display: block;
+            position: absolute;
+            top: 1015px;
+            min-width:100% ;
+        }
+
+        .desk {
+            display: none;
+        }
+
+       
+
+
+    }
+
+ 
+
+
+
+
+
+
